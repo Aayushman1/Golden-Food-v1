@@ -1,0 +1,130 @@
+body{
+  background-color: rgb(246, 246, 246);
+}
+.index {
+  /*background-image: url('');*/
+  text-transform: uppercase;
+  font-size: 460%;
+  color: blue;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.box img {
+  border-radius: 3%;
+  width: 25%;
+}
+.box :hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1s;
+}
+.header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-top:2%;
+  padding-right:5%;
+  padding-left: 5%;
+  padding-bottom: none;
+  /*box-shadow: 0px 2px 10px black;*/
+}
+.follow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header a{
+  margin-right:10%;
+  color:rgb(124, 107, 12);
+  font-family: 'Open Sans', sans-serif;
+  text-decoration:none;
+  font-size: 150%;
+}
+.header a:hover{
+  text-decoration: overline;
+}
+.login{
+  font-size:140%;
+  border: solid;
+  padding: 2%;
+  border-radius: 20%;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.login:hover{
+  opacity: 50%;
+}
+.logo{
+  cursor: pointer;
+}
+.map{
+  display:flex;
+  justify-content: space-between;
+  margin-left:2%;
+  margin-right: 2%;
+  margin-top:5%;
+}
+iframe{
+  border-radius: 2%;
+  width: 45%;
+  height: 55vh;
+}
+.heading{
+  text-transform: uppercase;
+  font-size: 200%;
+}
+.location-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-txt{
+  font-family: 'Michroma', sans-serif;
+  margin-left: 5%;
+
+}
+.location-img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.location-list li{
+  margin-bottom: 15%;
+}
+.home-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.swiper{
+  width: 100%;
+  height: fit-content;
+  padding-left: 10%;
+  padding-right: 20%;
+  background-color: white;
+}
+.swiper-slide img{
+  width:60%;
+}
+
+
+
+/*Später brauchbar*/
+/*      <h2 style="font-family: 'Rubik Bubbles', cursive">Folge uns:</h2>
+        <img
+          src="Images/instagram.png"
+          alt="Instagram"
+          style="width: 10%; cursor: pointer; margin-left:10%"
+        />*/
+
+/*https://www.youtube.com/watch?v=rD2Tnc-W31A*/
+/*https://www.steinerschule-basel.ch/bauvorhaben/*/
+/*https://www.steinerschule-basel.ch/bauvorhaben/*/
